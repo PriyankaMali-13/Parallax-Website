@@ -1,0 +1,72 @@
+body, html{
+height:100%;
+margin:0;
+font-size:16px;
+font-family:"Lato", sans-serif;
+font-weight:400;
+color:#666;
+line-height:1.8em;
+}
+
+.pig1, .pig2, .pig3, .pig4{
+position:relative;
+ocapacity:0.70;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+.pig1{
+background-image:url('../images/image1.jpg');
+min-height:100%;
+}
+
+.pig2{
+background-image:url('../images/image2.jpg');
+min-height:400px;
+}
+
+.pig3{
+background-image:url('../images/image3.jpg');
+min-height:400px;
+}
+
+.pig4{
+background-image:url('../images/image4.jpg');
+min-height:400px;
+}
+
+.section{
+text-align:center;
+padding: 10px;
+}
+
+.section-light{
+background-color:"white";
+color:#666;
+}
+
+.pigtext{
+position:absolute;
+top:50%;
+width:100%;
+text-align:center;
+color:#000;
+font-size:27px;
+letter-spacing:8px;
+text-transform:uppercase;
+}
+
+.pigtext .border{
+background-color:#111;
+color:#fff;
+padding:20px;
+}
+
+
+@media(max-width:568px){
+.pig1, .pig2, .pig3, .pig4{
+background-attachment:scroll;
+}
+}
