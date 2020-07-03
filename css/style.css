@@ -39,7 +39,7 @@ min-height:400px;
 
 .section{
 text-align:center;
-padding: 10px;
+padding: 0px;
 }
 
 .section-light{
@@ -69,4 +69,9 @@ padding:20px;
 .pig1, .pig2, .pig3, .pig4{
 background-attachment:scroll;
 }
+}
+
+.footer{
+background-color:#111;
+padding:20px;
 }
